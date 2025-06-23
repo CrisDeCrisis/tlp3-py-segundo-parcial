@@ -1,0 +1,20 @@
+.space {
+  width: var(--size);
+  height: var(--size);
+  background-color: #fff;
+  box-shadow: var(--space-layer);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: var(--opacity);
+  animation: moveStars var(--duration) linear infinite;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100vh);
+  }
+}
