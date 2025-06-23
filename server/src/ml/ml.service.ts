@@ -14,4 +14,13 @@ export class MlService {
       throw new InternalServerErrorException('No se pudo obtener la predicción del modelo', error)
     }
   }
+
+  async getMetrics(): Promise<any> {
+    try {
+      const response = await axios.get('http://localhost:8000/metrics');
+      return response.data;
+    } catch (error) {
+      throw new InternalServerErrorException('No se pudieron obtener las métricas del modelo', error);
+    }
+  }
 }
