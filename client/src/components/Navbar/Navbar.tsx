@@ -23,6 +23,14 @@ const Navbar = () => {
                     </li>
                     <li className="inline-block -mt-[9px] mx-2 rounded-lg py-3 px-4 text-white font-semibold">
                         <button
+                            onClick={() => handleScroll("metrics")}
+                            className="bg-transparent text-inherit text-lg font-semibold focus:outline-none hover:underline cursor-pointer transition-colors duration-300"
+                        >
+                            Metricas
+                        </button>
+                    </li>
+                    <li className="inline-block -mt-[9px] mx-2 rounded-lg py-3 px-4 text-white font-semibold">
+                        <button
                             onClick={() => handleScroll("prediction")}
                             className="bg-transparent text-inherit text-lg font-semibold focus:outline-none hover:underline cursor-pointer transition-colors duration-300"
                         >
