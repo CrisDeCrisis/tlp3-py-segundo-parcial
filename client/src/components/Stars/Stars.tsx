@@ -32,6 +32,7 @@ export default function Stars() {
             <div className="space space-1"></div>
             <div className="space space-2"></div>
             <div className="space space-3"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-60"></div>
         </div>
     );
 }
