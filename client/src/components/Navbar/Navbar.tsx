@@ -7,7 +7,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-0 left-0 w-full text-center py-6 z-10 overflow-hidden">
+        <nav className="fixed top-0 left-0 w-full text-center py-6 z-20 overflow-hidden">
             <div className="relative inline-block align-middle">
                 {/* Líneas decorativas a los lados */}
                 <span className="hidden md:block absolute left-[-300%] top-1/2 w-[300%] h-[5px] -translate-y-1/2 border-t border-b border-gray-300/35" aria-hidden="true"></span>
@@ -35,6 +35,14 @@ const Navbar = () => {
                             className="bg-transparent text-inherit text-lg font-semibold focus:outline-none hover:underline cursor-pointer transition-colors duration-300"
                         >
                             Predicción
+                        </button>
+                    </li>
+                    <li className="inline-block -mt-[9px] mx-2 rounded-lg py-3 px-4 text-white font-semibold">
+                        <button
+                            onClick={() => handleScroll("credits")}
+                            className="bg-transparent text-inherit text-lg font-semibold focus:outline-none hover:underline cursor-pointer transition-colors duration-300"
+                        >
+                            Créditos
                         </button>
                     </li>
                 </ul>
