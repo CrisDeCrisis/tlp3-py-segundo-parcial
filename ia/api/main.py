@@ -31,7 +31,8 @@ def predict(data: AsteroidInput):
 
     return {
         "is_neo": int(pred),
-        "probability": round(prob, 3)
+        "probability_neo": round(prob, 3),
+        "probability_no_neo": round(1 - prob, 3),
     }
 
 # Endpoint para obtener métricas del modelo
