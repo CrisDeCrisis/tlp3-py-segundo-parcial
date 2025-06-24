@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Metrics from "./pages/Metrics";
 
 export default function App() {
   return (
     <>
+      <Navbar />
       <Home />
       <Metrics />
       <div>

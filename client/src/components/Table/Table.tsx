@@ -61,15 +61,15 @@ const MetricsTable: React.FC = () => {
 
     return (
         <div className="w-full p-6">
-            <h2 className="text-2xl font-bold mb-4">Métricas del Modelo</h2>
+            <h2 className="text-2xl font-bold mb-4">Testeo del modelo</h2>
             <Table>
                 <TableHeader>
                     <TableRow>
                         <TableHead className="font-bold">Métrica</TableHead>
                         <TableHead className="text-center">No NEO</TableHead>
                         <TableHead className="text-center">NEO</TableHead>
-                        <TableHead className="text-center">Promedio Ponderado</TableHead>
-                        <TableHead className="text-center">Accuracy</TableHead>
+                        <TableHead className="text-center">Promedio de prueba</TableHead>
+                        <TableHead className="text-center">Efectividad de predicción</TableHead>
                     </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -77,16 +77,16 @@ const MetricsTable: React.FC = () => {
                         <TableRow key={index}>
                             <TableCell className="font-medium">{row.metric}</TableCell>
                             <TableCell className="text-center">
-                                {row.metric === 'accuracy' ? '-' : row.class_0}
+                                {row.metric === 'Efectividad de predicción' ? '' : row.class_0}
                             </TableCell>
                             <TableCell className="text-center">
-                                {row.metric === 'accuracy' ? '-' : row.class_1}
+                                {row.metric === 'Efectividad de predicción' ? '' : row.class_1}
                             </TableCell>
                             <TableCell className="text-center">
-                                {row.metric === 'accuracy' ? '-' : row.weighted_avg}
+                                {row.metric === 'Efectividad de predicción' ? '' : row.weighted_avg}
                             </TableCell>
                             <TableCell className="text-center">
-                                {row.metric === 'accuracy' ? row.accuracy : '-'}
+                                {row.metric === 'Efectividad de predicción' ? row.accuracy : ''}
                             </TableCell>
                         </TableRow>
                     ))}
