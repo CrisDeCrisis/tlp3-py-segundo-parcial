@@ -19,42 +19,59 @@ cd tlp3-py-segundo-parcial
 
 ### Pasos para ejecutar el servidor en Python
 
-1. Activar el entorno virtual en la carpeta ia
+1. Navegar a la carpeta `ia`
+```bash
+cd ia
+```
+
+2. Activar el entorno virtual
 ```bash
 python -m venv env
 source env/bin/activate  # En Linux o MacOS
 env\Scripts\activate  # En Windows
 ```
 
-2. Instalar las dependencias
+3. Instalar las dependencias
 ```bash
 pip install -r requirements.txt
 ```
 
-3. dirigirse a la carpeta api y ejecutar el siguiente comando correr el servidor en python:
+4. dirigirse a la carpeta api y ejecutar el siguiente comando correr el servidor en python:
 ```bash
+cd api
 uvicorn main:app --reload
 ```
 
 ### Pasos para ejecutar el servidor en NestJS
 
-1. Instalar las dependencias
+1. Navegar a la carpeta `server`
+```bash
+cd server
+```
+
+2. Instalar las dependencias
 ```bash
 yarn install
 ```
 
-2. Ejecutar el servidor
+3. Ejecutar el servidor
 ```bash
 yarn start:dev
 ```
 
 ### Pasos para ejecutar el cliente en React
-1. Instalar las dependencias
+
+1. Navegar a la carpeta `client`
+```bash
+cd client
+```
+
+2. Instalar las dependencias
 ```bash
 yarn install
 ```
 
-2. Ejecutar el cliente en yarn o npm
+3. Ejecutar el cliente en yarn o npm
 ```bash
 yarn run dev
 npm run dev
