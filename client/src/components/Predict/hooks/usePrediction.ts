@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useFetch } from "@/hooks/useFetch";
-import type { PredictionResponse } from "../interface/prediction";
-import type { PredictionFormData } from "../schema/prediction";
+import type { PredictionResponse } from "../interfaces/prediction";
+import type { PredictionFormData } from "../schemas/prediction";
 
 export const usePrediction = () => {
   const [prediction, setPrediction] = useState<PredictionResponse | null>(null);

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useFetch } from "@/hooks/useFetch";
-import type { MetricsData } from "../interface/metrics";
+import type { MetricsData } from "../interfaces/metrics";
 
 export const useMetrics = () => {
   const [metricsData, setMetricsData] = useState<MetricsData | null>(null);

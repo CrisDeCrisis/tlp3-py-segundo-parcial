@@ -11,8 +11,8 @@ import {
     FormLabel,
     FormMessage,
 } from "@/components/ui/form"
-import { predictionFormSchema, type PredictionFormInputs, type PredictionFormData } from "../schema/prediction"
-import type { PredictionFormProps } from "../interface/prediction"
+import { predictionFormSchema, type PredictionFormInputs, type PredictionFormData } from "../schemas/prediction"
+import type { PredictionFormProps } from "../interfaces/prediction"
 
 
 

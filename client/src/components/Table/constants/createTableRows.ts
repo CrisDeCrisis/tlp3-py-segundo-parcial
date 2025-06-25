@@ -1,5 +1,5 @@
-import type { MetricsData } from "../interface/metrics";
-import type { TableGenerated } from "../interface/table";
+import type { MetricsData } from "../interfaces/metrics";
+import type { TableGenerated } from "../interfaces/table";
 import { formatValue } from "./formatValue";
 
 export const createTableRows = (data: MetricsData): TableGenerated[] => {

@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import type { PredictionResultsProps } from "../interface/prediction"
+import type { PredictionResultsProps } from "../interfaces/prediction"
 
 
 export const PredictionResults = ({ prediction, error, isLoading }: PredictionResultsProps) => {

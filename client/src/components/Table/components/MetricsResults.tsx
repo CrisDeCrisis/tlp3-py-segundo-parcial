@@ -7,7 +7,7 @@ import {
     TableHeader,
     TableRow,
 } from '@/components/ui/table';
-import type { MetricsData } from '../interface/metrics';
+import type { MetricsData } from '../interfaces/metrics';
 import { createTableRows } from '../constants/createTableRows';
 
 interface MetricsResultsProps {

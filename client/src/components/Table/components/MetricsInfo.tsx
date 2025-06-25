@@ -17,8 +17,7 @@ export const MetricsInfo = ({ onLoadMetrics, isLoading }: MetricsInfoProps) => {
             </CardHeader>
             <CardContent className="space-y-4">
                 <p className="text-gray-300 leading-relaxed">
-                    Nuestro modelo de machine learning ha sido entrenado utilizando un dataset con información
-                    extraída directamente de la NASA. Este dataset contiene datos precisos sobre asteroides y
+                    Nuestro modelo de machine learning ha sido entrenado utilizando un dataset obtenido del Jet Propulsion Laboratory (JPL) del California Institute of Technology, una organización bajo la NASA. Este dataset contiene datos precisos sobre asteroides y
                     objetos cercanos a la Tierra (NEO), permitiendo al modelo aprender patrones complejos para
                     realizar predicciones altamente confiables.
                 </p>                <div className="pt-4">

@@ -1,4 +1,4 @@
-import type { PredictionFormData } from "../schema/prediction";
+import type { PredictionFormData } from "../schemas/prediction";
 
 export interface PredictionResponse {
   is_neo: 0 | 1;
