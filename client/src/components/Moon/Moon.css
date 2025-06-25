@@ -1,0 +1,27 @@
+/* Animación base para la luna interactiva */
+@keyframes moonGlow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.2));
+  }
+}
+
+.moon-subtle-glow {
+  animation: moonGlow 4s ease-in-out infinite;
+}
+
+.moon-container {
+  position: fixed;
+  top: 10%;
+  right: 15%;
+  pointer-events: none;
+  z-index: 10;
+  transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.moon-base-glow {
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
+}

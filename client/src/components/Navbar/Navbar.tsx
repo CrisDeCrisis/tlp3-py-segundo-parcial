@@ -7,7 +7,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-0 left-0 w-full text-center py-6 z-20 overflow-hidden">
+        <nav className="fixed top-0 left-0 w-full text-center py-6 z-50 overflow-hidden">
             <div className="relative inline-block align-middle">
                 {/* Líneas decorativas a los lados */}
                 <span className="hidden md:block absolute left-[-300%] top-1/2 w-[300%] h-[5px] -translate-y-1/2 border-t border-b border-gray-300/35" aria-hidden="true"></span>
