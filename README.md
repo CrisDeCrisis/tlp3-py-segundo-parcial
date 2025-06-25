@@ -1,6 +1,23 @@
-## Modelo de IA para predecir NEO
+# Modelo de IA para predecir NEO
 
-### Pasos para ejecutar el servidor en python
+## Requisitos
+- Python 3X
+- Jupyter Notebook
+- Librerías especificadas en el archivo `requirements.txt`
+- Yarn o npm
+
+## Utilizar el repositorio
+1. Clonar el repositorio
+```bash
+git clone https://github.com/CrisDeCrisis/tlp3-py-segundo-parcial
+```
+
+2. Navegar a la carpeta del proyecto
+```bash
+cd tlp3-py-segundo-parcial
+```
+
+### Pasos para ejecutar el servidor en Python
 
 1. Activar el entorno virtual en la carpeta ia
 ```bash
@@ -37,11 +54,8 @@ yarn start:dev
 yarn install
 ```
 
-2. Ejecutar el cliente
+2. Ejecutar el cliente en yarn o npm
 ```bash
 yarn run dev
-```
-o
-```bash
 npm run dev
 ```
